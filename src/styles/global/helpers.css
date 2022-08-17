@@ -1,0 +1,27 @@
+/* Lock Body */
+.lock {
+  overflow: hidden;
+}
+
+.lock body {
+  overflow: hidden;
+}
+
+/* Rotate */
+.rotate > * {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin { 
+  100% { 
+    transform:rotate(360deg); 
+  } 
+}
+
+/* Action Float */
+.actionFloat {
+  bottom: 1.25rem;
+  position: fixed;
+  right: 1rem;
+  z-index: 2;
+}
